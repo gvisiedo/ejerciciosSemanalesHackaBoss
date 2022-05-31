@@ -18,4 +18,6 @@ const names = [
   "Kenton",
 ];
 
+const resultado = names.filter((item, index)=>{return names.indexOf(item)===index;})
+console.log(resultado);
 
