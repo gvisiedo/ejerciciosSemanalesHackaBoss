@@ -10,7 +10,8 @@ const people = {
   Daniel: 27,
   Irene: 23,
   Alex: 10,
-};
+  
+}
 
 const mayorEdad = 18;
 
@@ -59,4 +60,16 @@ if (people.Alex >= mayorEdad){
 }else{
   console.log(`Alex es menor de edad`);
 };
+
+function edadMayor(){
+  for(let i=0; i<=people.lenght;i++){
+  if (people[i] >= mayorEdad){
+    console.log(people[i] + "es mayor de edad");
+  }else{
+    console.log(people[i]+ "es menor de edad");
+  }
+ }
+}
+
+edadMayor()
 
