@@ -60,16 +60,28 @@ if (people.Alex >= mayorEdad){
 }else{
   console.log(`Alex es menor de edad`);
 };
+console.log(people);
+
 
 function edadMayor(){
-  for(let i=0; i<=people.lenght;i++){
-  if (people[i] >= mayorEdad){
+  for(let i=0; i<=people.length;i++){
+  if (i >= mayorEdad){
     console.log(people[i] + "es mayor de edad");
   }else{
     console.log(people[i]+ "es menor de edad");
   }
  }
 }
+/*
+function myFunction( people.key , people.value){
+    for(let i=0; i<=people.length; i++){
+      if(people.value(i)>= mayorEdad){
+        console.log(people.key(i) + "es mayor de edad");
+      }else{
+        console.log(people.key(i) + "es menor de edad");
+      }
+    }
 
-edadMayor()
+}*/
+
 
