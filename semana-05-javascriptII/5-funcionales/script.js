@@ -39,3 +39,11 @@ const puntuaciones = [
     puntos: [2, 3, 3, 4],
   },
 ];
+
+console.log(
+puntuaciones.filter((e)=>{
+  return e.puntos;
+}).map((e)=>{return e.puntos;})
+);
+
+

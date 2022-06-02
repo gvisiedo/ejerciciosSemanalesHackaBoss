@@ -3,7 +3,7 @@
 
 
 const password =parseInt((Math.random())*100);
-
+function sorteo(){
 for (let i = 1; i<=5;i++){
    let numUser= parseInt(prompt("Introduce un numero del 0 al 100"));
 if (numUser === password){
@@ -13,6 +13,8 @@ if (numUser === password){
 }else if(numUser>password){
     alert("Es menor");
 }
+} alert("Se han acapado los intentos");
 }
+sorteo();
 
 
